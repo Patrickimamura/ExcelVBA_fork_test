@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - temp-whisper-model-20260818
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
